@@ -2,14 +2,34 @@
 <html lang="ja">
 
 <head>
+    <link rel="shortcut icon" href="./img/favicon.ico">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>prac1</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Profile</title>
 </head>
 
-<body>
-
+<body style="margin: 0;">
+    <div id="header" class="wrapper">
+        <img src="./img/logo.svg" alt="Profile" style="width: 120px; height: 40px; margin: auto 0;">
+        <div style="margin: auto 0; width: 140px; display: flex; justify-content: space-around;">
+            <a href="#about">About</a>
+            <a href="#bycycle">Bicycle</a>
+        </div>
+    </div>
+    <div id="mainvisual">
+        <img src="./img/mainvisual.jpg" alt="mainvisual"
+            style="height: 600px; width: 100%; object-fit: cover; margin-bottom: 80px;">
+    </div>
+    <div id="main" class="wrapper">
+        <h1>About</h1>
+        <div id="about">
+            <img src="./img/about.jpg" alt="ロゴ写真">
+        </div>
+        <h1>Bicycle</h1>
+    </div>
+    <div id="footer"></div>
 </body>
 
 </html>

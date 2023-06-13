@@ -1,0 +1,30 @@
+#header {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+}
+
+#main {
+    text-align: center;
+}
+
+.wrapper {
+    margin: 0 auto;
+    padding: 0 4%;
+    max-width: 960px;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    display: inline-block;
+    border-bottom: solid 1px black;
+}
+
+a:hover {
+    color: rgba(0, 0, 0, 0.308);
+}
