@@ -15,11 +15,22 @@
     margin-bottom: 100px;
 }
 
+#aboutimage {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-right: 40px;
+}
+
 .wrapper {
     margin: 0 auto;
     padding: 0 4%;
     max-width: 960px;
     box-sizing: border-box;
+}
+
+.name {
+    text-align: left;
 }
 
 a {
@@ -28,10 +39,27 @@ a {
 }
 
 h1 {
+    margin-bottom: 60px;
     display: inline-block;
     border-bottom: solid 1px black;
 }
 
 a:hover {
     color: rgba(0, 0, 0, 0.308);
+}
+
+@media screen and (max-width: 600px) {
+
+    #about,
+    #bicycle {
+        display: block;
+    }
+
+    #aboutimage {
+        margin-right: 0;
+    }
+
+    .name {
+        text-align: center;
+    }
 }
