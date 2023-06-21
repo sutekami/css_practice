@@ -91,6 +91,7 @@ p {
 
 .article {
     display: flex;
+    margin-bottom: 80px;
 }
 
 .about img {
@@ -135,6 +136,15 @@ h3 {
     display: block;
 }
 
-#footer {
-    background-color: rgba(128, 128, 128, 0.521);
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-about, .footer-menu, .footer-twitter {
+    max-width: 350px;
+}
+
+h2 {
+    text-align: left;
 }
