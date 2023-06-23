@@ -1,0 +1,166 @@
+#header {
+    height: 100vh;
+    width: 100%;
+    background-image: url(./img/mainvisual.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+li {
+    color: white;
+    list-style: none;
+    font-weight: bold;
+    text-shadow: 10px;
+    padding: 0 20px;
+    text-shadow: 1px 1px 2px black;
+    font-size: 14px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: brown;
+}
+
+img {
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+    filter: drop-shadow(1px 1px 2px white);
+}
+
+.img {
+    width: 100%;
+    height: 30vh;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 70px;
+    font-weight: bolder;
+    text-shadow: 1px 1px 2px white;
+}
+
+.menu {
+    background-image: url(./img/menu.jpg);
+}
+
+.content {
+    max-width: 1000px;
+    padding: 0 10px;
+    margin: 150px auto;
+    display: flex;
+}
+
+.menu-left {
+    width: 500px;
+    text-align: center;
+    border-right: solid 1px black;
+}
+
+.menu-right {
+    width: 500px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h1 {
+    display: inline-block;
+    border-bottom: solid 5px red;
+    margin-top: 0;
+}
+
+dl {
+    width: 100%;
+    display: flex;
+    padding-left: 40px;
+}
+
+dt {
+    text-align: left;
+    margin-bottom: 10px;
+    width: 70%;
+    border-bottom: dashed 1px black;
+}
+
+dd {
+    text-align: left;
+    padding-top: 10px;
+    width: 20%;
+    font-size: 12px;
+}
+
+#about .content,
+#location .content {
+    flex-direction: column;
+}
+
+.content>h1 {
+    margin: 0 auto;
+}
+
+.about {
+    background-image: url(./img/about.jpg);
+}
+
+#about-content {
+    margin: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.about-content {
+    width: 45%;
+    margin: 20px 0;
+}
+
+#about p {
+    width: 10%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+    border: solid 1px red;
+}
+
+.location {
+    background-image: url(./img/location.jpg);
+}
+
+.map {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+#location p {
+    font-size: 14px;
+}
+
+#footer p {
+    text-align: center;
+    font-size: 12px;
+}

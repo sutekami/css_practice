@@ -141,8 +141,11 @@ h3 {
     justify-content: space-between;
 }
 
-.footer-about, .footer-menu, .footer-twitter {
+.footer-about,
+.footer-menu,
+.footer-twitter {
     max-width: 350px;
+    height: 400px;
 }
 
 h2 {
