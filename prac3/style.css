@@ -151,3 +151,40 @@ h3 {
 h2 {
     text-align: left;
 }
+
+@media screen and (max-width: 600px) {
+    .nav-ul {
+        overflow-x: scroll;
+    }
+
+    .new {
+        display: block;
+    }
+
+    .new-blog {
+        margin: 20px 0;
+        width: 100%;
+    }
+
+    .article {
+        display: block;
+        margin-bottom: 80px;
+    }
+
+    .left {
+        width: 100%;
+    }
+
+    .new-article {
+        margin: 20px 0;
+    }
+
+    .right {
+        margin-top: 40px;
+        width: 100%;
+    }
+
+    .footer-flex {
+        display: block;
+    }
+}
